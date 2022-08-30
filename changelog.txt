@@ -1,0 +1,65 @@
+v3.0.0 (Apr/2022)
+- New version coded in python
+- Erased some scripts: sipsniff, sipspy and sipreport
+- Renamed script sipcracker to siprcrack
+- New script sipenumerate to enumerate available methods of a SIP sevice/server
+- New script sipdump to extract SIP Digest authentications from a PCAP file
+- New script sipcrack to crack the digest authentications within the SIP protocol
+
+v2.0.5 (Jan/2022)
+- sipflood.pl: new script to flood a SIP server
+- sipcracker.pl: if all password are found, the script ends
+- sipdigestleak.pl: added cnonce, nc and qop params when export files with sipdump format
+- sipscan.pl: bug fixes
+
+v2.0.4 (Aug/2020)
+- Hostname to IP address resolution
+- TLS support
+- sipinvite.pl: Fixed ACK responses and added BYE message
+
+v2.0.3 (Dec/2019)
+- Fix manpage-has-bad-whatis-entry error in man pages
+- sipscan.pl: Added -th param and bug fixes in threads
+- Code optimized in several scripts
+
+v2.0.2 (Dec/2019)
+- Fixes in man pages
+- Moved sipcrack to sipcracker
+
+v2.0.1 (Dec/2019)
+- Bug fixes
+- Added man pages
+
+v2.0.0 (Dec/2019)
+- sipscan, sipexten, sipcrack, sipinvite: New params to customize SIP headers (From User, From Name, To User, To Name, Contact Domain, SIP Domain)
+- sipinvite.pl: Allow TCP connections
+- Bug fixes
+
+v1.2.13 (Oct/2019)
+- New param (-version) to show current version and check for new updates
+- sipscan.pl: New optional param (-web) to check for a control panel
+- sipinvite.pl: New param (-log) to save data into a log file
+
+v1.2.12 (Oct/2019)
+- sipscan.pl: using threads are now optional (-noth)
+
+v1.2.8 (May/2019)
+- Bug fixes
+
+v1.2.7 (May/2019)
+- Don't save data into database bt default
+
+v1.2.6 (Jan/2019)
+- New script (sipdigestleak.pl) to exploit the vulnerability discovered by 
+  Sandro Gauci that affects a large number of hardware and software devices
+
+v1.2.2 (Dec/2018)
+- Bug fixes
+
+v1.2.1 (Aug/2018)
+- Bug fixes
+- Change --nodb by --db (by default don't save session)
+- Now it is possible to change the user-agent
+
+v1.2 (Feb/2015)
+- First publication uploaded to Github (previous versions are proofs)
